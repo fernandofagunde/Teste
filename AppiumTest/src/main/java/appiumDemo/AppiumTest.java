@@ -44,9 +44,6 @@ public class AppiumTest {
 
 	@Test
 	public void cenarioPositivo() throws Exception {
-		
-				
-				
 				
 		//abrindo conexão com servidor.
 		driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), capacidade);
@@ -94,6 +91,9 @@ public class AppiumTest {
 
 	@After
 	public void finalizar() {
+		
+		
+		//testando commit 
 		driver.quit();
 	}
 
